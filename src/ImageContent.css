@@ -1,0 +1,29 @@
+.images-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 80px auto;
+}
+.image-area{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto 35px;
+    box-shadow: 0 2px 7px gray;
+}
+a{
+    width: calc(100%/4);
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 3px 8px gray;
+    transition: all 0.2s;
+}
+
+img:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+}

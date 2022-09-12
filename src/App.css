@@ -8,7 +8,7 @@
   height: 100%;
   min-height: 100vh;
   text-align: center;
-  background-image: linear-gradient(180deg, rgba(210, 190, 153, 1), rgba(194, 255, 233, 1));
+  background-image: linear-gradient(to top, #30cfd0 0%, #480e8f 100%);
 }
 
 h1{
